@@ -51,4 +51,4 @@ gcc -S hello.c -o hello.s   # 會編譯成組合語言檔
 
 gcc -S main.c -o main.s
 ```
-
+* gcc指令集: https://gcc.gnu.org/onlinedocs/gcc-11.2.0/gcc/Option-Summary.html#Option-Summary
