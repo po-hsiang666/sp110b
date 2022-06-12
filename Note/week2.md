@@ -27,7 +27,7 @@
 缺點:
 可能造成【動態連結地域(DLL hell)的困境】
 ```
-|Windows                  |Unix/Linux    
+ |Windows                  |Unix/Linux    
 -----------------------------|-----------------------------|---------
 動態連結檔|DLLs | Share Objects
 附檔名|.dll| .so
