@@ -1,6 +1,8 @@
 # 如何避免寫出悲劇的C語言(範例出自老師WEEK2影片教材中)
 
 ![image](https://user-images.githubusercontent.com/81726807/173249886-a7d2ce19-bb3f-419c-b087-45fe0862bd14.png)
+![image](https://user-images.githubusercontent.com/81726807/173250217-b162f8b9-568f-4265-91d8-054ca3eaad29.png)
+
 ## 關於錯誤額外補充
 ```
 錯誤1 是沒有給C的大小
