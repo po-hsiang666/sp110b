@@ -31,4 +31,8 @@
 -----------------------------|-----------------------------|---------
 動態連結檔|DLLs | Share Objects
 附檔名|.dll| .so
-
+引入檔|#include<windows.h>|#include<dlfcn.h>
+函式庫檔|Kemel32.dll|libdl.so
+載入功能|LoadLibrary、LoadLibraryEx|dlopen
+取得函數|GetProcAddress|dlsym
+關閉功能|FreeLibrary|dlclose
