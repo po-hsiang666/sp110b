@@ -44,5 +44,11 @@ EX:linux系統程式、Windows系統程式
 ```
 ![image](https://user-images.githubusercontent.com/81726807/173248750-27144918-92dc-47ef-bcee-ebf9b695475f.png)
 ![image](https://user-images.githubusercontent.com/81726807/173248771-ecd9f369-2deb-4258-a5b6-38965b5e7a24.png)
+## 使用GCC產生組合語言
 
+```
+gcc -S hello.c -o hello.s   # 會編譯成組合語言檔
+
+gcc -S main.c -o main.s
+```
 
