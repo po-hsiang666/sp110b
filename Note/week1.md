@@ -31,8 +31,10 @@ EX:linux系統程式、Windows系統程式
 * 系統程式泛指與計算機系統相關的程式設計，例如嵌入式系統、組合語言程式設計、C 語言程式設計、Linux 核心程式設計等等。
 
 # 1-2系統程式與系統軟體
-```
+
 ![image](https://user-images.githubusercontent.com/81726807/173243945-e3b4d814-efab-42c7-8cd6-7250d522a4ce.png)
+```
+<p>載入流程</p>
 ```
 
 
