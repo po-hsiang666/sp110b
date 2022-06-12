@@ -39,6 +39,8 @@ EX:linux系統程式、Windows系統程式
 我們在看主程式會發現有一個sum.h 
 往下找會sum.h這是函式庫
 但gcc會自動合併，所以主程式執行時能夠使用我們自創的函式庫
+編譯加連結指令 gcc main.c sum.c -o run
+執行指令 ./run
 ```
 ![image](https://user-images.githubusercontent.com/81726807/173248750-27144918-92dc-47ef-bcee-ebf9b695475f.png)
 ![image](https://user-images.githubusercontent.com/81726807/173248771-ecd9f369-2deb-4258-a5b6-38965b5e7a24.png)
