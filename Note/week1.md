@@ -35,4 +35,7 @@ EX:linux系統程式、Windows系統程式
 ## 程式編譯、組譯、連結、載入流程
 ![image](https://user-images.githubusercontent.com/81726807/173243945-e3b4d814-efab-42c7-8cd6-7250d522a4ce.png)
 
-
+```
+我們在看主程式會發現有一個sum.h 
+往下找會sum.h這是函式庫
+但gcc會自動合併
