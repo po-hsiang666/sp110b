@@ -1,4 +1,4 @@
-# 如何避免寫出悲劇的C語言
+# 如何避免寫出悲劇的C語言(範例出自老師WEEK2影片教材中)
 
 ![image](https://user-images.githubusercontent.com/81726807/173249886-a7d2ce19-bb3f-419c-b087-45fe0862bd14.png)
 
