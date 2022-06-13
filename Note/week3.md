@@ -1,6 +1,6 @@
 # 老師講解語法(出自老師講義 https://gitlab.com/ccc110/sp/)
 ```
-#include "rlib.h"
+#include "rlib.h" #亂數函式庫
 
 // === EBNF Grammar =====
 // S = NP VP #S代表句子 
