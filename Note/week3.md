@@ -54,7 +54,56 @@ int main() {
 ![image](https://user-images.githubusercontent.com/81726807/173265715-7a58971e-07b7-43e2-ab49-108af1274a52.png)
 ![image](https://user-images.githubusercontent.com/81726807/173265769-91f9450a-a1fd-4b28-a71f-73695345d3ce.png)
 
-查閱網路資料後，發現windows系統在gcc genEnglish.c rlib.c後會產生.exe檔而不是.out，所以要./a.exe而不是./a.out
+## 查閱網路資料後，發現windows系統在gcc genEnglish.c rlib.c後會產生.exe檔而不是.out，所以要./a.exe而不是./a.out
 
+```
+#include "rlib.h"
 
+void E();
+void T();
+void F();
 
+// === EBNF Grammar =====
+// E=T ([+-] T)*
+// T=F ([*/] F)?
+// F=[0-9] | (E)
+
+int main(int argc, char * argv[]) {
+    timeSeed();
+    // E();
+    int i;
+    for (i=0; i<10; i++) {
+        E();
+        printf("\n");
+    }
+}
+
+// E=T ([+-] T)*
+void E() {
+    T();
+    while (randInt(10) < 3) {
+       printf("%c", randChar("+-"));
+       T();
+    }
+}
+
+// T=F ([*/] F)?
+void T() {
+    F();
+    if (randInt(10) < 7) {
+        printf("%c", randChar("*/"));
+        F();
+    }
+}
+
+// F=[0-9] | (E)
+void F() {
+    if (randInt(10) < 8) {
+        printf("%c", randChar("0123456789"));
+    } else {
+        printf("(");
+        E();
+        printf(")");
+    }
+}
+```
