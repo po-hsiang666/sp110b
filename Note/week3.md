@@ -12,43 +12,47 @@
 
 char* n[] = {"dog", "cat"};
 char* v[] = {"chase", "eat"};
-char* det[] = {"a", "the"};
+char* det[] = {"a", "the"}; 
 
 void N() {
-  printf("%s", randSelect(n, 2));
+  printf("%s", randSelect(n, 2));  #隨機選一個印出來2選1
 }
 
 void V() {
-  printf("%s", randSelect(v, 2));
+  printf("%s", randSelect(v, 2)); #隨機選一個印出來2選1
 }
 
 void DET() {
-  printf("%s", randSelect(det, 2));
+  printf("%s", randSelect(det, 2));  #隨機選一個印出來2選1
 }
 
 void NP() {
   DET();
-  printf(" ");
+  printf(" "); #中間空白防止連一起
   N();
 }
 
 void VP() {
   V();
-  printf(" ");
+  printf(" "); #中間空白防止連一起
   NP();
 }
 
 void S() {
   NP();
-  printf(" ");
+  printf(" "); #中間空白防止連一起
   VP();
   printf("\n");
 }
 
 int main() {
-  timeSeed();
+  timeSeed(); #用時間當亂數種子來隨機換避免一樣
   S();
 }
 ```
+![image](https://user-images.githubusercontent.com/81726807/173265715-7a58971e-07b7-43e2-ab49-108af1274a52.png)
+![image](https://user-images.githubusercontent.com/81726807/173265769-91f9450a-a1fd-4b28-a71f-73695345d3ce.png)
+查閱網路資料後，發現windows系統在gcc genEnglish.c rlib.c後會產生.exe檔而不是.out
+
 
 
