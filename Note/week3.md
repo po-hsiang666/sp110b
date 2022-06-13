@@ -1,13 +1,14 @@
+# 老師講解語法(出自老師講義 genEnglish.c)
 ```
 #include "rlib.h"
 
 // === EBNF Grammar =====
-// S = NP VP
-// NP = DET N
-// VP = V NP
-// N = dog | cat
-// V = chase | eat
-// DET = a | the
+// S = NP VP #S代表句子 
+// NP = DET N #NP代表名詞子句
+// VP = V NP #VP代表動詞子句
+// N = dog | cat #N是名詞
+// V = chase | eat #V是動詞
+// DET = a | the #DET是定詞
 
 char* n[] = {"dog", "cat"};
 char* v[] = {"chase", "eat"};
