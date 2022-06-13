@@ -1,4 +1,4 @@
-# 老師講解語法(出自老師講義 genEnglish.c)
+# 老師講解語法(出自老師講義 https://gitlab.com/ccc110/sp/)
 ```
 #include "rlib.h"
 
