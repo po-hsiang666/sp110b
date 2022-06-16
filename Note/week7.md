@@ -1,3 +1,4 @@
+根據這個圖分門別類細說的心得
 ![image](https://user-images.githubusercontent.com/81726807/174193043-781955f5-aaa9-4416-9db7-64f42a8c8830.png)
 聽老師上課後，做的心得內容並閱讀百度搜索的相關內容
 # 行程管理
